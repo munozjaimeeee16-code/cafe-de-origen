@@ -176,3 +176,51 @@ text-align: center;
 padding: 1.5rem 0; 
 font-size: 0.875rem; 
 } 
+@media (min-width: 768px) { 
+.header__contenido { 
+flex-direction: row; 
+justify-content: space-between; 
+} 
+.nav__lista { 
+flex-direction: row; 
+gap: 0.25rem; 
+} 
+
+.nav__lista a { 
+padding: 0.5rem 0.75rem; 
+} 
+
+.hero h1 { 
+font-size: 2.5rem; 
+} 
+
+.tarjetas { 
+grid-template-columns: repeat(2, 1fr); 
+} 
+
+.contacto__grid { 
+flex-direction: row; 
+} 
+
+.contacto__bloque { 
+flex: 1; 
+} 
+} 
+@media (min-width: 1024px) { 
+.hero { 
+padding: 5rem 0; 
+} 
+
+.hero__contenido { 
+grid-template-columns: 1fr 1fr; 
+align-items: center; 
+} 
+
+.hero h1 { 
+font-size: 3rem; 
+} 
+
+.tarjetas { 
+grid-template-columns: repeat(3, 1fr); 
+} 
+} 
